@@ -868,13 +868,13 @@ body[data-theme="dark"] .specs-cancel{color:var(--ink); border-color:rgba(255,25
   width:auto;
   height:28px;
   max-width:120px;
-  opacity:0.62;
+  opacity:0.88;
   transition:transform 220ms ease, opacity 220ms ease;
 }
 @keyframes logo-marquee-scroll{
   to{transform:translateX(-50%);}
 }
-body[data-theme="dark"] .logo-marquee img{filter:grayscale(1) invert(1);opacity:0.72;}
+body[data-theme="dark"] .logo-marquee img{filter:grayscale(1) invert(1);opacity:0.9;}
 .logo-marquee img:hover{transform:translateY(-4px) scale(1.14);opacity:1;}
 @media (prefers-reduced-motion:reduce){
   .logo-marquee-track{animation:none;}
